@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<div class="container-lg" id="header">
+  <h1>{% block title %}Overview{% endblock %}</h1>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container-md" id="home-content">
+  <p>Welcome to IT Cloud Path</p>
+  <p>Charting your path to success with Managed IT and Cloud services.</p>
+  <p>IT Cloud Path is a leading Managed Service Provider (MSP) that empowers businesses with cutting-edge technology solutions and comprehensive IT management. With a focus on cloud-based services, cybersecurity, and strategic IT consulting, IT Cloud Path offers a clear path to efficient, secure, and scalable IT solutions. We are committed to helping organizations navigate the ever-evolving IT landscape, ensuring they stay on a growth trajectory while minimizing operational risks.</p>
+<div class="d grid gap-2" id="vision-statement">
+<h3>**Our Vision:**</h3>
+<p>With IT Cloud Path, our vision is to be the trusted partner for businesses seeking to harness the power of technology for growth and success. We aspire to be the path that leads our clients towards innovation, security, and seamless IT operations.</p>
+</div>
+<h3 id="intro-header">**Our Core Services**</h3>
+<div class="container row" id="intro-services">
+<div class="col-4 card card-body">
+<h5 class="card-title">1.Managed IT Services: </h5>
+<p class="card-text">
+We offer 24/7 monitoring and support to ensure your IT infrastructure runs smoothly, allowing your team to focus on strategic initiatives rather than IT issues.
+</p>
+<a href="{{ url_for('services.itservices') }}" class="btn btn-primary btn-sm d-grid gap-2 col-4 mx-auto card-link" role="button">Learn More</a>
+</div>
+<div class="col-4 card card-body">
+<h5 class="card-title">2. Cloud Solutions: </h5>
+<p class="card-text">
+  IT Cloud Path specializes in cloud-based services, including Infrastructure as a Service (IaaS), Software as a Service (SaaS), and Platform as a Service (PaaS). We help you leverage the cloud's flexibility and scalability.
+</p>
+<a href="{{ url_for('services.cloudservices') }}" class="btn btn-primary btn-sm d-grid gap-2 col-4 mx-auto card-link">Learn More</a>
+</div>
+<div class="col-4 card card-body">
+<h5 class="card-title">3. Cybersecurity: </h5>
+<p  class="card-text">
+  Protecting your business is our top priority. We offer comprehensive cybersecurity solutions to safeguard your data, networks, and systems from cyber threats.
+</p>
+<a href="{{ url_for('services.itservices') }}" class="btn btn-primary btn-sm d-grid gap-2 col-4 mx-auto card-link">Learn More</a>
+</div>
+<div class="col-4 card card-body">
+<h5 class="card-title">4. IT Consulting: </h5>
+<p class="card-text">
+  Our experienced consultants work closely with your organization to create IT strategies tailored to your unique needs and goals. 
+  We'll help you align technology with your business objectives.
+</p>
+<a href="{{ url_for('services.itservices') }}" class="btn btn-primary  btn-sm d-grid gap-2 col-4 mx-auto card-link">Learn More</a>
+</div>
+<div class="col-4 card card-body">
+<h5 class="card-title">5. Backup and Disaster Recovery: </h5>
+<p class="card-text">
+IT Cloud Path ensures your data's safety through robust backup and disaster recovery solutions, minimizing downtime and data loss.
+</p>
+<a href="{{ url_for('services.itservices') }}" class="btn btn-primary  btn-sm d-grid gap-2 col-4 mx-auto card-link">Learn More</a>
+</div>
+<div class="col-4 card card-body">
+<h5 class="card-title">6. Network Management: </h5>
+<p class="card-text"></p>
+We optimize your network performance, reliability, and security, enabling seamless communication and connectivity.
+</p>
+<a href="{{ url_for('services.itservices') }}" class="btn btn-primary  btn-sm d-grid gap-2 col-4 mx-auto card-link">Learn More</a>
+</div>
+</div>
+
+<div class="mission-statement">
+<p>
+<h3>**Why Choose IT Cloud Path:**</h3>
+<ol>
+<li>Expertise: Our team consists of highly skilled IT professionals with extensive experience in cloud computing, cybersecurity, and IT management.</li>
+
+<li>Tailored Solutions: We understand that each business has unique requirements. Our solutions are customized to align with your specific needs.</li>
+
+<li>Reliability: IT Cloud Path offers a 99.9% uptime guarantee, ensuring your business operations remain uninterrupted.</li>
+
+<li>Cost-Efficiency: We help you reduce IT-related expenses through efficient solutions and by eliminating the need for an in-house IT department.</li>
+
+<li>Security: Our commitment to cybersecurity ensures your data and systems are protected against evolving threats.</li>
+
+<li>Proactive Approach:** We proactively monitor and address IT issues before they disrupt your business.</li>
+</ol>
+</p>
+</div>
+<div class="industry-statement">
+<p>
+<h4>Industries We Serve:</h4>
+IT Cloud Path provides services to a wide range of industries, including healthcare, finance, legal, manufacturing, and more.
+Our expertise and adaptable solutions benefit organizations of all sizes and sectors.
+</p>
+</div>
+<div class="conclusion-statement">
+<p>
+<h4>Conclusion:</h4>
+At IT Cloud Path, we believe that the right IT solutions can be the pathway to business success. 
+With our comprehensive managed IT services, cloud solutions, and commitment to security, we are here to guide you on your IT journey. 
+Let us help you navigate the complexities of the digital world and take your business to new heights. 
+Choose IT Cloud Path as your trusted IT partner and embark on a journey to IT excellence.
+</p>
+</div>
+</div>
+{% endblock %}

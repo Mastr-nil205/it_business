@@ -1,0 +1,211 @@
+.content {
+    background-color: rgb(174, 226, 226);
+}
+
+#header {
+    text-align: center;
+    background-color: rgb(203, 208, 218);
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: white;
+}
+.navbar {
+    background-color: rgb(98, 98, 100);
+}
+
+#navbarNav {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#navbarNav a {
+    padding: 25px;
+    color: white;
+}
+
+#home-content {
+    text-align: center;
+    background-color: rgb(203, 208, 218);
+}
+#vision-statement {
+    padding: 5%;
+    margin: 15px;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(203, 208, 218);
+}
+
+#vision-statement h3 {
+    text-align: center;
+}
+#intro-header {
+    border: 1px solid black transparent opacity(0.5);
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(241, 234, 234);
+}
+
+.card {
+    margin: 20px;
+    padding: 35px;
+}
+
+.card-link {
+    text-decoration: none;
+    margin-top: auto;
+    padding: 5px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.mission-statement {
+    padding: 25px;
+    margin: 0;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(223, 217, 217);
+}
+
+.industry-statement {
+    padding: 25px;
+    margin: 0;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(223, 217, 217);
+}
+
+.conclusion-statement {
+    padding: 25px;
+    margin: 0;
+    border: 1px solid black transparent opacity(0.5);
+}
+
+#nav-footer {
+    background-color: rgb(98, 98, 100);
+    color: rgb(172, 169, 169);
+    padding: 10px;
+}
+
+.page-footer-links ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.page-footer-copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(98, 98, 100);
+    color: rgb(172, 169, 169);
+}
+
+.page-footer-links a {
+    color: rgb(172, 169, 169);
+    text-decoration: none;
+}
+
+.page-footer-links a:hover {
+    text-decoration: underline;
+}
+
+.page-footer-logo {
+    padding: 10px;
+}
+
+.page-footer-logo a {
+    text-decoration: none;
+    color: rgb(172, 169, 169);
+}
+
+#itservices-content {
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(223, 217, 217);
+}
+
+#itservices-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+#itservices-header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#itservices-header {
+    padding: 20px;
+}
+
+#cloudservices-content {
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(223, 217, 217);
+}
+
+#cloudservices-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+#cloudservices-header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#cloudservices-header {
+    padding: 20px;
+}
+
+.cloudservices-item {
+    padding: 10px;
+    margin: 25px;
+}
+
+.itservices-item {
+    padding: 25px;
+}
+
+#about-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-conclusion {
+    padding: 25px;
+    margin: 0;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(223, 217, 217);
+}
+
+.about-statement {
+    padding: 25px;
+    margin: 0;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(223, 217, 217);
+}
+
+.about-info { 
+    margin: 30px;
+}
+
+#contact-form {
+    padding: 35px;
+    margin: auto;
+    border: 1px solid black transparent opacity(0.5);
+    background-color: rgb(155, 152, 152);
+}
+
+#submit {
+    text-align: center;
+    padding: 5px;
+}
+
+#contact-header {
+    text-align: center;
+    padding: 10px;
+}

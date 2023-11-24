@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <div class="container-lg" id="contact-header">
+  <h1>{% block title %}Contact Us{% endblock %}</h1>
+  <p>
+    We'd love to hear from you. Please fill out the form below and we'll get back to you as soon as we can.
+  </p>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="container" id="contact-form">
+  <form class="row g-3">
+    <div class="mb-3 col-md-6">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" aria-describedby="name">
+    </div>
+    <div class="mb-3 col-md-6">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" aria-describedby="email">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+    <div class="col-12" id="submit">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  </div>
+{% endblock %}
